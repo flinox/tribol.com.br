@@ -507,7 +507,7 @@ li {
     color: #fff;
     font-weight: 700;
     margin-bottom: 50px;
-    margin-top: -20px;
+    margin-top: -120px;
 }
 
 .animated-img {
@@ -989,6 +989,7 @@ li {
 .breadcumb-content h2 {
     color: #fff;
     font-size: 48px;
+    font-weight: 700;
 }
 
 .breadcumb-content p {
