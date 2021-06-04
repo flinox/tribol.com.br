@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157442102-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-157442102-1');
+    gtag('config', 'AW-669940465');    
+
+
+    function confirm(codigo,jogo,valor) // no ';' here
+    {
+        document.getElementById('jogo_detalhes').src = "description/"+codigo+".html";        
+        document.getElementById('jogo_nome').innerHTML = jogo;
+        document.getElementById('jogo_valor').innerHTML = valor;
+    }
+
+    </script>
+
+
+    <meta name="description" content="A TRIBO L é uma startup online especializada em jogos digitais inicialmente para consoles XBOX ONE, XBOX 360 e PC com envio imediato dos códigos em até duas horas após confirmação de pagamento. Também somos gamers então estamos diariamente buscamos melhores produtos, serviços e preços para nosso público. Com seu apoio e confiança podemos ser a melhor loja para você encontrar jogos com preços que pode pagar. Em breve teremos mais jogos para PC, PlayStation e Nintendo.">
+    <meta name="keywords" content="TRIBO L, TRIBOL, XBOX, PS4, PS3, XBOX ONE, XBOX 360, NINTENDO, Wii, WiiU, NINTENDO SWITCH, SWITCH, GAMES, JOGOS, JOGOS DIGITAIS, JOGOS EM MÍDIA FÍSICA, COLECIONÁVEIS, JOGOS USADOS, JOGOS NOVOS, JOGOS LACRADOS, ENVIO IMEDIATO DOS CÓDIGOS">
+    <meta name="robots" content="">
+	<meta name="revisit-after" content="1 day">
+	<meta name="language" content="Portuguese">
+	<meta name="generator" content="N/A">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>TRIBO L - Aqui você encontra jogos com preços que pode pagar.</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Stylesheet -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive/responsive.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Preloader Start -->
+    <div id="preloader">
+        <div class="loader">
+            <span class="inner1"></span>
+            <span class="inner2"></span>
+            <span class="inner3"></span>
+        </div>
+    </div>
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header_area" id="header">
+        <div class="container-fluid h-100">
+            <div class="row h-100">
+                <div class="col-12 h-100">
+                    <nav class="h-100 navbar navbar-expand-lg align-items-center">
+                        <a class="navbar-brand" href="https://www.tribol.com.br">
+                            <img src="img/core-img/logo.png" width="18%" height="18%" alt="TRIBO L">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fancyNav" aria-controls="fancyNav" aria-expanded="false" aria-label="Toggle navigation"><span class="ti-menu"></span></button>
+                        <div class="collapse navbar-collapse" id="fancyNav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="loja.html">Loja <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="xbox.html">Como resgatar um jogo XBOX</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="steam.html">Como resgatar um jogo STEAM</a>
+                                </li>    
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pesquisa.html">Pesquisa Gamer</a>
+                                </li>                                                                                              
+                                <li class="nav-item">
+                                    <a class="nav-link" href="newsletter.html">Newsletter</a>
+                                </li>                                                                                              
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Breadcumb Area Start ***** -->
+    <div class="fancy-breadcumb-area bg-img bg-overlay" style="background-image: url(img/bg-img/hero-1.jpg);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcumb-content text-center">
+                        <h2>Escolha o jogo que deseja,<br> pague e receba em até 2hs.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Breadcumb Area End ***** -->
+
+
+    <!-- ***** About Us Area Start ***** -->
+    <section class="single_blog_area section-padding-100">
+        <div class="container">
+
+            <!-- Modal Compra -->
+            <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Comprar jogo</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>                    
+                </div>
+                <div class="modal-body">
+                    <h2 id="jogo_nome"></h2> 
+                    <h4 id="jogo_valor" style="color:green"></h4>
+                    <iframe id="jogo_detalhes" src="about:blank" style="margin: 0; border: 0; width: 100%; height: 250px; position: relative;"></iframe>
+                    <table style="width:100%">
+                        <tr>
+                            <td style="text-align:center">
+                                <img src="img/QRCodePIX.png" alt="">
+                            </td>
+                            <td style="text-align:left">
+                                <img src="img/logoPIX.png" alt="" width="120" height="70">
+                            </td>
+                        </tr>
+                    </table>
+                    <p style="color:gray">Realize o pagamento usando o QRCode acima e entre em contato no Whatsapp para receber seu código!</p>
+                    <center>
+                        <a href="https://wa.me/5511961039840" class="btn fancy-btn fancy-dark" target="_blank">Clique aqui para falar no whatsapp!</a>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+                </div>
+            </div>
+            </div>
+            <!-- Modal Compra -->
+
+            <!-- LISTA DOS JOGOS -->
+            <div class="row">
+
+                <div class="col">
+                    <div class="about-us-thumb wow fadeInUp" data-wow-delay="0.5s">
+                        <center>
+                            <input type="hidden" id="CODIGO_d8025841145e" value="d8025841145e">
+                            <img src="img/produtos/d8025841145e.png" alt="" width="200" height="100">
+                            <h5 id="JOGO_d8025841145e">Max The Curse of Brotherhood - Xbox 360</h5>
+                            <h6 id="VALOR_d8025841145e"><span style="color:green">R$ 30,00</span></h6>
+                            <a href="#" id="comprar" class="btn fancy-btn fancy-dark" data-toggle="modal" data-target="#myModal" onclick="confirm(CODIGO_d8025841145e.value,JOGO_d8025841145e.innerText,VALOR_d8025841145e.innerText)">Comprar</a>
+                        </center>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="about-us-thumb wow fadeInUp" data-wow-delay="0.5s">
+                        <center>
+                            <input type="hidden" id="CODIGO_C0SFCF4PBRSZ" value="C0SFCF4PBRSZ">
+                            <img src="img/produtos/C0SFCF4PBRSZ.png" alt="" width="200" height="100">
+                            <h5 id="JOGO_C0SFCF4PBRSZ">Max The Curse of Brotherhood - Xbox One</h5>
+                            <h6 id="VALOR_C0SFCF4PBRSZ"><span style="color:green">R$ 35,00</span></h6>
+                            <a href="#" id="comprar" class="btn fancy-btn fancy-dark" data-toggle="modal" data-target="#myModal" onclick="confirm(CODIGO_C0SFCF4PBRSZ.value,JOGO_C0SFCF4PBRSZ.innerText,VALOR_C0SFCF4PBRSZ.innerText)">Comprar</a>
+                        </center>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="about-us-thumb wow fadeInUp" data-wow-delay="0.5s">
+                        <center>
+                            <input type="hidden" id="CODIGO_9NBLGGH1Z6FB" value="9NBLGGH1Z6FB">
+                            <img src="img/produtos/9NBLGGH1Z6FB.png" alt="" width="200" height="100">
+                            <h5 id="JOGO_9NBLGGH1Z6FB">Ori And The Blind Forest Definitive Edition - Xbox One</h5>
+                            <h6 id="VALOR_9NBLGGH1Z6FB"><span style="color:green">R$ 69,00</span></h6>
+                            <a href="#" id="comprar" class="btn fancy-btn fancy-dark" data-toggle="modal" data-target="#myModal" onclick="confirm(CODIGO_9NBLGGH1Z6FB.value,JOGO_9NBLGGH1Z6FB.innerText,VALOR_9NBLGGH1Z6FB.innerText)">Comprar</a>
+                        </center>
+                    </div>
+                </div>
+
+            </div>
+            <br><br>
+
+            <!-- LISTA DOS JOGOS -->
+            <div class="row">
+
+                <div class="col">
+                    <div class="about-us-thumb wow fadeInUp" data-wow-delay="0.5s">
+                        <center>
+                            <input type="hidden" id="CODIGO_BR7X7MVBBQKM" value="BR7X7MVBBQKM">
+                            <img src="img/produtos/BR7X7MVBBQKM.png" alt="" width="200" height="100">
+                            <h5 id="JOGO_BR7X7MVBBQKM">Far Cry 5 - Xbox One</h5>
+                            <h6 id="VALOR_BR7X7MVBBQKM"><span style="color:green">R$ 120,00</span></h6>
+                            <a href="#" id="comprar" class="btn fancy-btn fancy-dark" data-toggle="modal" data-target="#myModal" onclick="confirm(CODIGO_BR7X7MVBBQKM.value,JOGO_BR7X7MVBBQKM.innerText,VALOR_BR7X7MVBBQKM.innerText)">Comprar</a>
+                        </center>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="about-us-thumb wow fadeInUp" data-wow-delay="0.5s">
+                        <center>
+                            <input type="hidden" id="CODIGO_C4S60FPWF4XN" value="C4S60FPWF4XN">
+                            <img src="img/produtos/C4S60FPWF4XN.png" alt="" width="200" height="100">
+                            <h5 id="JOGO_C4S60FPWF4XN">Rise Of The Tomb Raider 20 Anos - Xbox One</h5>
+                            <h6 id="VALOR_C4S60FPWF4XN"><span style="color:green">R$ 115,00</span></h6>
+                            <a href="#" id="comprar" class="btn fancy-btn fancy-dark" data-toggle="modal" data-target="#myModal" onclick="confirm(CODIGO_C4S60FPWF4XN.value,JOGO_C4S60FPWF4XN.innerText,VALOR_C4S60FPWF4XN.innerText)">Comprar</a>
+                        </center>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="about-us-thumb wow fadeInUp" data-wow-delay="0.5s">
+                        <center>
+                            <input type="hidden" id="CODIGO_C0MN5DN8KR3F" value="C0MN5DN8KR3F">
+                            <img src="img/produtos/C0MN5DN8KR3F.png" alt="" width="200" height="100">
+                            <h5 id="JOGO_C0MN5DN8KR3F">Playerunknowns Battlegrounds - Xbox One</h5>
+                            <h6 id="VALOR_C0MN5DN8KR3F"><span style="color:green">R$ 79,00</span></h6>
+                            <a href="#" id="comprar" class="btn fancy-btn fancy-dark" data-toggle="modal" data-target="#myModal" onclick="confirm(CODIGO_C0MN5DN8KR3F.value,JOGO_C0MN5DN8KR3F.innerText,VALOR_C0MN5DN8KR3F.innerText)">Comprar</a>
+                        </center>
+                    </div>
+                </div>
+
+            </div>
+            <br><br>
+            <!--NOVA_LINHA-->
+
+
+        </div>
+
+
+    </section>
+    <!-- ***** About Us Area End ***** -->
+
+
+    <!-- ***** Footer Area Start ***** -->
+    <footer class="fancy-footer-area fancy-bg-dark">
+
+        <!-- Footer Copywrite -->
+        <div class="footer-copywrite-area">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col-12 h-100">
+                        <div class="copywrite-content h-100 d-flex align-items-center justify-content-between">
+                            <!-- Copywrite Text -->
+                            <div class="copywrite-text">
+                                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ***** Footer Area End ***** -->
+
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap-4 js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/others/plugins.js"></script>
+    <!-- Active JS -->
+    <script src="js/active.js"></script>
+</body>
